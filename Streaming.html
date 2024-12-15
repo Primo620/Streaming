@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Streaming Room Computer Setup Specifications</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        table {
+            width: 100%;
+            margin: 20px 0;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #28a745;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        @media (max-width: 600px) {
+            table, thead, tbody, th, td, tr {
+                display: block;
+            }
+            th {
+                display: none;
+            }
+            tr {
+                margin-bottom: 10px;
+            }
+            td {
+                text-align: right;
+                position: relative;
+                padding-left: 50%;
+            }
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: calc(50% - 20px);
+                padding-right: 10px;
+                white-space: nowrap;
+                text-align: left;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<h1>Streaming Room Specifications</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Component</th>
+            <th>Specifications</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td data-label="Component">Processor (CPU)</td>
+            <td data-label="Specifications">Intel Core i9 14th Gen</td>
+        </tr>
+        <tr>
+            <td data-label="Component">RAM</td>
+            <td data-label="Specifications">64GB DDR4</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Storage</td>
+            <td data-label="Specifications">1TB NVMe SSD + 2TB SSD SATA</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Graphics Card</td>
+            <td data-label="Specifications">NVIDIA RTX 4090</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Capture Card</td>
+            <td data-label="Specifications">Elgato HD60 S+</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Microphone</td>
+            <td data-label="Specifications">USB Condenser Microphone</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Webcam</td>
+            <td data-label="Specifications">Redragon 1080p HD Webcam</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Operating System</td>
+            <td data-label="Specifications">Windows 11 pro</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Power Supply</td>
+            <td data-label="Specifications">850W 80+ Gold</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Monitor</td>
+            <td data-label="Specifications">27-inch dual monitor 4K UHD (3840x2160)</td>
+        </tr>
+        <tr>
+            <td data-label="Component">Streaming Software</td>
+            <td data-label="Specifications">OBS Studio or Streamlabs OBS</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
